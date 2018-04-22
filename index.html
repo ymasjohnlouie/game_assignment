@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>Game Application</title>
+
+	<!-- Imports Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+
+</head>
+<body>
+		<div id="front_text">
+			<h1>Welcome To Mind Test 2018</h1>
+			<h2>Let's See How Smart You Are</h2>
+			<h4>NOTE: Please put your answer with first letter as capitalized.</h4>
+			<button onclick="startTest()" id="button1">Start Test</button>
+		</div>
+
+		<!-- Start of Question 1 -->
+		<div id="welcomeDiv1">
+			<h2>Q1: What is the meaning of TriNoMa, a large shopping mall in Quezon City owned by property development firm Ayala Land?</h2>
+			<input type="text" name="answer1" id="answer1" placeholder="Your answer here..."><br>
+			<button onclick="checkAnswer1()">Check Answer</button>
+		</div>
+
+		<div id="response1">
+			<h2>Your Answer Is Correct</h2>
+			<button onclick="susunodNa1()">Proceed</button>
+		</div>
+		<!-- End of Question 1 -->
+
+		<!-- Start of Question 2 -->
+		<div id="welcomeDiv2">
+			<h2>Q2: He is an English scientist who invented the World Wide Web in 1989.</h2>
+			<input type="text" name="answer2" id="answer2" placeholder="Your answer here..."><br>
+			<button onclick="checkAnswer2()">Check Answer</button>
+		</div>
+
+		<div id="response2">
+			<h2>Your Answer Is Correct</h2>
+			<button onclick="susunodNa2()">Proceed</button>
+		</div>
+		<!-- End of Question 2 -->
+
+		<!-- Start of Question 3 -->
+		<div id="welcomeDiv3">
+			<h2>Q3: With a total height of 829.8 meters (2,722 ft), this has been the tallest structure in the world since 2008.</h2>
+			<input type="text" name="answer3" id="answer3" placeholder="Your answer here..."><br>
+			<button onclick="checkAnswer3()">Check Answer</button>
+		</div>
+
+		<div id="response3">
+			<h2>Your Answer Is Correct</h2>
+			<button onclick="susunodNa3()">Proceed</button>
+		</div>
+		<!-- End of Question 3 -->
+
+		<!-- Start of Question 4 -->
+		<div id="welcomeDiv4">
+			<h2>Q4: The Malagonlong Bridge is known as one of the oldest bridges as well as the longest bridge made during the Spanish era. In what town in Quezon province it is located?</h2>
+			<input type="text" name="answer4" id="answer4" placeholder="Your answer here..."><br>
+			<button onclick="checkAnswer4()">Check Answer</button>
+		</div>
+
+		<div id="response4">
+			<h2>Your Answer Is Correct</h2>
+			<button onclick="susunodNa4()">Proceed</button>
+		</div>
+		<!-- End of Question 4 -->
+
+		<!-- Start of Question 5 -->
+		<div id="welcomeDiv5">
+			<h2>Q5: What is the international name of Typhoon Yolanda, which was one of the strongest tropical cyclones ever recorded?</h2>
+			<input type="text" name="answer5" id="answer5" placeholder="Your answer here..."><br>
+			<button onclick="checkAnswer5()">Check Answer</button>
+		</div>
+
+		<div id="response5">
+			<h2>Your Answer Is Correct</h2>
+			<button onclick="susunodNa5()">Proceed</button>
+		</div>
+		<!-- End of Question 5 -->
+
+		<!-- Start of Question 6 -->
+		<div id="welcomeDiv6">
+			<h2>Q6: He is the award-winning director of the epic romance-disaster film Titanic.</h2>
+			<input type="text" name="answer6" id="answer6" placeholder="Your answer here..."><br>
+			<button onclick="checkAnswer6()">Check Answer</button>
+		</div>
+
+		<div id="response6">
+			<h2>Your Answer Is Correct</h2>
+			<button onclick="susunodNa6()">Proceed</button>
+		</div>
+		<!-- End of Question 1 -->
+
+		<!-- Start of Question 7 -->
+		<div id="welcomeDiv7">
+			<h2>Q7: What is the deepest part of the world's oceans?</h2>
+			<input type="text" name="answer7" id="answer7" placeholder="Your answer here..."><br>
+			<button onclick="checkAnswer7()">Check Answer</button>
+		</div>
+
+		<div id="response7">
+			<h2>Your Answer Is Correct</h2>
+			<button onclick="susunodNa7()">Proceed</button>
+		</div>
+		<!-- End of Question 7 -->
+
+		<!-- Start of Question 8 -->
+		<div id="welcomeDiv8">
+			<h2>Q8: It is a minor planet named after a Filipino educator.</h2>
+			<input type="text" name="answer8" id="answer8" placeholder="Your answer here..."><br>
+			<button onclick="checkAnswer8()">Check Answer</button>
+		</div>
+
+		<div id="response8">
+			<h2>Your Answer Is Correct</h2>
+			<button onclick="susunodNa8()">Proceed</button>
+		</div>
+		<!-- End of Question 8 -->
+
+		<!-- Start of Question 9 -->
+		<div id="welcomeDiv9">
+			<h2>Q9: It is a chemical element commonly known as quicksilver.</h2>
+			<input type="text" name="answer9" id="answer9" placeholder="Your answer here..."><br>
+			<button onclick="checkAnswer9()">Check Answer</button>
+		</div>
+
+		<div id="response9">
+			<h2>Your Answer Is Correct</h2>
+			<button onclick="susunodNa9()">Proceed</button>
+		</div>
+		<!-- End of Question 9 -->
+
+		<!-- Start of Question 10 -->
+		<div id="welcomeDiv10">
+			<h2>Q10: The name of the world's largest crocodile ever caught and placed in captivity.</h2>
+			<input type="text" name="answer10" id="answer10" placeholder="Your answer here..."><br>
+			<button onclick="checkAnswer10()">Check Answer</button>
+		</div>
+
+		<div id="response10">
+			<h2>Your Answer Is Correct</h2>
+			<h3>Congratulations!!!</h3>
+		</div>
+		<!-- End of Question 10 -->
+
+	<script type="text/javascript">
+		function startTest(){
+			document.getElementById('front_text').style.visibility = "hidden";
+			document.getElementById('welcomeDiv1').style.display = "block";
+			document.body.style.backgroundColor = "#FFFF00";
+		}
+
+		function checkAnswer1(){
+			var answer = document.getElementById('answer1').value;
+			if (answer == "Triangle North of Manila"){
+				document.getElementById('welcomeDiv1').style.visibility = "hidden";
+				document.getElementById('response1').style.display = "block";
+				document.body.style.backgroundColor = "#00CC00";
+			} else {
+				document.body.style.backgroundColor = "red";
+			}
+		}
+
+		function susunodNa1(){
+			document.getElementById('welcomeDiv2').style.display = "block";
+			document.getElementById('response1').style.visibility = "hidden";
+			document.body.style.backgroundColor = "#FFFF00";
+		}
+
+		function checkAnswer2(){
+			var answer = document.getElementById('answer2').value;
+			if (answer == "Tim Berners-Lee"){
+				document.getElementById('welcomeDiv2').style.visibility = "hidden";
+				document.getElementById('response2').style.display = "block";
+				document.body.style.backgroundColor = "#00CC00";
+			} else {
+				document.body.style.backgroundColor = "red";
+			}
+		}
+
+		function susunodNa2(){
+			document.getElementById('welcomeDiv3').style.display = "block";
+			document.getElementById('response2').style.visibility = "hidden";
+			document.body.style.backgroundColor = "#FFFF00";
+		}
+
+		function checkAnswer3(){
+			var answer = document.getElementById('answer3').value;
+			if (answer == "Burj Khalifa"){
+				document.getElementById('welcomeDiv3').style.visibility = "hidden";
+				document.getElementById('response3').style.display = "block";
+				document.body.style.backgroundColor = "#00CC00";
+			} else {
+				document.body.style.backgroundColor = "red";
+			}
+		}
+
+		function susunodNa3(){
+			document.getElementById('welcomeDiv4').style.display = "block";
+			document.getElementById('response3').style.visibility = "hidden";
+			document.body.style.backgroundColor = "#FFFF00";
+		}
+
+		function checkAnswer4(){
+			var answer = document.getElementById('answer4').value;
+			if (answer == "Tayabas"){
+				document.getElementById('welcomeDiv4').style.visibility = "hidden";
+				document.getElementById('response4').style.display = "block";
+				document.body.style.backgroundColor = "#00CC00";
+			} else {
+				document.body.style.backgroundColor = "red";
+			}
+		}
+
+		function susunodNa4(){
+			document.getElementById('welcomeDiv5').style.display = "block";
+			document.getElementById('response4').style.visibility = "hidden";
+			document.body.style.backgroundColor = "#FFFF00";
+		}
+
+		function checkAnswer5(){
+			var answer = document.getElementById('answer5').value;
+			if (answer == "Haiyan"){
+				document.getElementById('welcomeDiv5').style.visibility = "hidden";
+				document.getElementById('response5').style.display = "block";
+				document.body.style.backgroundColor = "#00CC00";
+			} else {
+				document.body.style.backgroundColor = "red";
+			}
+		}
+
+		function susunodNa5(){
+			document.getElementById('welcomeDiv6').style.display = "block";
+			document.getElementById('response5').style.visibility = "hidden";
+			document.body.style.backgroundColor = "#FFFF00";
+		}
+
+		function checkAnswer6(){
+			var answer = document.getElementById('answer6').value;
+			if (answer == "James Cameron"){
+				document.getElementById('welcomeDiv6').style.visibility = "hidden";
+				document.getElementById('response6').style.display = "block";
+				document.body.style.backgroundColor = "#00CC00";
+			} else {
+				document.body.style.backgroundColor = "red";
+			}
+		}
+
+		function susunodNa6(){
+			document.getElementById('welcomeDiv7').style.display = "block";
+			document.getElementById('response6').style.visibility = "hidden";
+			document.body.style.backgroundColor = "#FFFF00";
+		}
+
+		function checkAnswer7(){
+			var answer = document.getElementById('answer7').value;
+			if (answer == "Mariana Trench" || answer == "Marianas Trench"){
+				document.getElementById('welcomeDiv7').style.visibility = "hidden";
+				document.getElementById('response7').style.display = "block";
+				document.body.style.backgroundColor = "#00CC00";
+			} else {
+				document.body.style.backgroundColor = "red";
+			}
+		}
+
+		function susunodNa7(){
+			document.getElementById('welcomeDiv8').style.display = "block";
+			document.getElementById('response7').style.visibility = "hidden";
+			document.body.style.backgroundColor = "#FFFF00";
+		}
+
+		function checkAnswer8(){
+			var answer = document.getElementById('answer8').value;
+			if (answer == "Biyo"){
+				document.getElementById('welcomeDiv8').style.visibility = "hidden";
+				document.getElementById('response8').style.display = "block";
+				document.body.style.backgroundColor = "#00CC00";
+			} else {
+				document.body.style.backgroundColor = "red";
+			}
+		}
+
+		function susunodNa8(){
+			document.getElementById('welcomeDiv9').style.display = "block";
+			document.getElementById('response8').style.visibility = "hidden";
+			document.body.style.backgroundColor = "#FFFF00";
+		}
+
+		function checkAnswer9(){
+			var answer = document.getElementById('answer9').value;
+			if (answer == "Mercury"){
+				document.getElementById('welcomeDiv9').style.visibility = "hidden";
+				document.getElementById('response9').style.display = "block";
+				document.body.style.backgroundColor = "#00CC00";
+			} else {
+				document.body.style.backgroundColor = "red";
+			}
+		}
+
+		function susunodNa9(){
+			document.getElementById('welcomeDiv10').style.display = "block";
+			document.getElementById('response9').style.visibility = "hidden";
+			document.body.style.backgroundColor = "#FFFF00";
+		}
+
+		function checkAnswer10(){
+			var answer = document.getElementById('answer10').value;
+			if (answer == "Lolong"){
+				document.getElementById('welcomeDiv10').style.visibility = "hidden";
+				document.getElementById('response10').style.display = "block";
+				document.body.style.backgroundColor = "#00CC00";
+			} else {
+				document.body.style.backgroundColor = "red";
+			}
+		}
+	</script>
+
+	<!-- Bootstrap requires jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins needed for bootstrap -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Play', sans-serif;
+}
+
+#front_text,
+#welcomeDiv1,
+#welcomeDiv2,
+#welcomeDiv3,
+#welcomeDiv4,
+#welcomeDiv5,
+#welcomeDiv6,
+#welcomeDiv7,
+#welcomeDiv8,
+#welcomeDiv9,
+#welcomeDiv10,
+#response1,
+#response2,
+#response3,
+#response4,
+#response5,
+#response6,
+#response7,
+#response8,
+#response9,
+#response10 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: #00CCFF;
+}
+
+#welcomeDiv1,
+#welcomeDiv2,
+#welcomeDiv3,
+#welcomeDiv4,
+#welcomeDiv5,
+#welcomeDiv6,
+#welcomeDiv7,
+#welcomeDiv8,
+#welcomeDiv9,
+#welcomeDiv10,
+#response1,
+#response2,
+#response3,
+#response4,
+#response5,
+#response6,
+#response7,
+#response8,
+#response9,
+#response10 {
+	display: none;
+}
